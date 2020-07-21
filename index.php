@@ -1,7 +1,9 @@
 <?php
 session_start();
 
-include("header.php");
+require_once 'config.php';
 
+include("header.php");
+include("menu.php");
 
  ?>
