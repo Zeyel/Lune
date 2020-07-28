@@ -1,6 +1,6 @@
 <script src="js/menu.js"></script>
 <?php
-$dir = getcwd()."\www\php\menu";
+$dir = getcwd()."\php\menu";
 $files = array_diff(scandir($dir), array(".", ".."));
 foreach ($files as $file){
   if (preg_match("#[0-9]{1,2}_[a-zA-Z0-9]+.php#", $file)) {
@@ -10,3 +10,5 @@ foreach ($files as $file){
   }
 }
  ?>
+
+ <p id='Test'/>
