@@ -1,4 +1,7 @@
 <?php
+/* CLASS CustomException
+*
+*/
 abstract class CustomException extends Exception implements IException
 {
     protected $message = 'Unknown exception';     // Exception message

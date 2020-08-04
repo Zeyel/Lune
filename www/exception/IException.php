@@ -1,4 +1,7 @@
 <?php
+/* CLASS IException
+*
+*/
 interface IException
 {
     /* Protected methods inherited from Exception class */

@@ -1,3 +1,4 @@
+<!--___SCRIPTS___-->
 <script src="js/menu.js"></script>
 <?php
 $tmp = "";
